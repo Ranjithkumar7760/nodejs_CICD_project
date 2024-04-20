@@ -17,6 +17,13 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          
+      - name: Set Executable Permissions for Mocha
+        run: chmod +x ./node_modules/.bin/mocha
+
+      - name: Run Tests
+        run: npm test
+
 
       - name: Install Dependencies
         run: npm install
