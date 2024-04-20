@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send(`
       <html>
         <head>
-          <title>Welcome Page</title>
+          <title>Welcome To My Page</title>
         </head>
         <body>
           <h1>This website runs by using node js and is hosted in an AWS EC2 instance</h1>
