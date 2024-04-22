@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
           <title>Welcome To My Page</title>
         </head>
         <body>
-          <h1>This website runs by using node js and is hosted in an AWS EC2 instance</h1>
+          <h1>This website runs by using node js and is hosted in an AWS beanstalk </h1>
           <p>Check out <a href="https://drive.google.com/file/d/1LrTlxBXRH_ligoubac6JY1F0Bx1mxcNw/view?usp=drive_link">My Portfolio</a>!</p>
         </body>
       </html>
