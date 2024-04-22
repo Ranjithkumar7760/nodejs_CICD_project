@@ -17,7 +17,7 @@ describe('GET /', () => {
 
   it('should return page heading', () => {
     const headingText = $('h1').text();
-    expect(headingText).to.include('This website runs by using node js and is hosted in an AWS EC2 instance');
+    expect(headingText).to.include('This website runs by using node js and is hosted in an AWS beanstalk ');
   });
 
   it('should return my portfolio link', () => {
